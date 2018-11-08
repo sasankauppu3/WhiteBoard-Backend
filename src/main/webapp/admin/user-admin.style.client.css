@@ -1,0 +1,30 @@
+.wbdv-hidden{
+    display: none;
+}
+
+.wbdv-password
+{
+    -webkit-text-security: disc;
+}
+
+.pointer {cursor: pointer;}
+
+.wbdv-remove
+{
+    color: #ff3e57;
+}
+
+.wbdv-edit
+{
+    color: #a52a2a;
+}
+
+.wbdv-search
+{
+    color: #3c7bff;
+}
+
+.wbdv-update
+{
+    color: #2b8045;
+}

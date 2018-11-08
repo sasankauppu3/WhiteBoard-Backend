@@ -1,0 +1,11 @@
+[
+  {
+    "id": "789",
+    "username": "charly",
+    "password": "charly",
+    "email": "charly@peanuts.com",
+    "firstName": "Charly",
+    "lastName": "Brown",
+    "role": "STUDENT"
+  }
+]

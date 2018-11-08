@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="course-editor.template.client.css" rel="stylesheet">
+
+    <title>Course Editor</title>
+</head>
+<body>
+<div class="container-fluid">
+    <h1>Course Editor</h1>
+    <div class="row">
+        <div class="col-2">
+            <ul class="nav flex-column nav-pills">
+                <a class="nav-link active" href="#">Module 1 jQuery</a>
+                <a class="nav-link" href="#">Module 2 React</a>
+                <a class="nav-link" href="#">Module 3 Redux</a>
+                <a class="nav-link" href="#">Module 4 Native</a>
+                <a class="nav-link" href="#">Module 5 Angular</a>
+                <a class="nav-link" href="#">Module 6 Node</a>
+                <a class="nav-link" href="#">Module 7 Mongo</a>
+            </ul>
+        </div>
+
+        <div class="col-10">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Build</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Theme</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Apps</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Settings</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a href="#"><i class="fa fa-plus nplus"></i></a>
+                </li>
+
+            </ul>
+            <br>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Topic 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Topic 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Topic 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Topic 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><i class="fa fa-plus"></i></a>
+                </li>
+            </ul>
+
+            <ul class="row nav nav-pills">
+                <li class="col-8">
+
+                </li>
+                <li class="col-1">
+                    <a class="btn btn-success btn-block btn-xs" href="#" role="button">Save</a>
+                </li>
+                <li class="col-2 form-inline">
+                    Preview &nbsp;<label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+
+                </li>
+            </ul>
+            <br>
+
+            <ul class="col-11">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title form-inline ">
+                            <div class="col-3"><h4>Heading Widget</h4></div>
+                            <div class="col-9">
+
+                            <div class="form-inline float-sm-right">
+                                <a href="#">
+                                    <span class="fa fa-stack fa-2x ">
+                                        <i class="fa fa-square fa-stack-1x circle"></i>
+                                        <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                                <a href="#">
+                                    <span class="fa fa-stack fa-2x">
+                                      <i class="fa fa-square fa-stack-1x circle"></i>
+                                      <i class="fa fa-arrow-down fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                                <div >
+                                    <select class="custom-select">
+                                        <option value="1" selected="selected">Heading</option>
+                                        <option value="2">Paragraph</option>
+                                        <option value="3">List</option>
+                                        <option value="4">Image</option>
+                                        <option value="5">Link</option>
+                                    </select>
+                                </div>
+                                &nbsp;
+                                <a class="btn btn-danger btn-xs" href="#" role="button"><i class="fa fa-times"></i></a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <input class="form-control" class="heading-text" placeholder="Heading Text">
+                        </div>
+
+                        <br>
+
+                        <div class="col-sm-12">
+                            <select class="custom-select">
+                                <option value="1" selected="selected">Heading 1</option>
+                                <option value="2">Heading 2</option>
+                                <option value="3">Heading 3</option>
+                            </select>
+                        </div>
+
+                        <br>
+
+                        <div class="col-sm-12">
+                            <input class="form-control" class="widget-name" placeholder="Widget Name">
+                        </div>
+
+                        <br>
+
+                        <h3>Preview</h3>
+
+                        <h1>Heading Text</h1>
+                    </div>
+                </div>
+            </ul>
+
+
+
+            <ul class="col-11">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title form-inline ">
+                            <div class="col-3"><h4>Paragraph Widget</h4></div>
+                            <div class="col-9">
+
+                                <div class="form-inline float-sm-right">
+                                    <a href="#">
+                                    <span class="fa fa-stack fa-2x ">
+                                        <i class="fa fa-square fa-stack-1x circle"></i>
+                                        <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    </a>
+                                    <a href="#">
+                                    <span class="fa fa-stack fa-2x">
+                                      <i class="fa fa-square fa-stack-1x circle"></i>
+                                      <i class="fa fa-arrow-down fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    </a>
+                                    <div >
+                                        <select class="custom-select">
+                                            <option value="1">Heading</option>
+                                            <option value="2" selected="selected">Paragraph</option>
+                                            <option value="3">List</option>
+                                            <option value="4">Image</option>
+                                            <option value="5">Link</option>
+                                        </select>
+                                    </div>
+                                    &nbsp;
+                                    <a class="btn btn-danger btn-xs" href="#" role="button"><i class="fa fa-times"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <textarea class="form-control" rows="3" placeholder="Paragraph Text">Lorem Ipsum</textarea>
+                        </div>
+
+                        <br>
+
+                        <div class="col-sm-12">
+                            <select class="custom-select">
+                                <option value="1" selected="selected">Heading 1</option>
+                                <option value="2">Heading 2</option>
+                                <option value="3">Heading 3</option>
+                            </select>
+                        </div>
+
+                        <br>
+
+                        <div class="col-sm-12">
+                            <input class="form-control" class="widget-name" placeholder="Widget Name">
+                        </div>
+
+                        <br>
+
+                        <h3>Preview</h3>
+
+                        <h1>Lorem Ipsum</h1>
+                    </div>
+                </div>
+            </ul>
+
+
+            <ul class="col-11">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title form-inline ">
+                            <div class="col-3"><h4>List Widget</h4></div>
+                            <div class="col-9">
+
+                                <div class="form-inline float-sm-right">
+                                    <a href="#">
+                                    <span class="fa fa-stack fa-2x ">
+                                        <i class="fa fa-square fa-stack-1x circle"></i>
+                                        <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    </a>
+                                    <a href="#">
+                                    <span class="fa fa-stack fa-2x">
+                                      <i class="fa fa-square fa-stack-1x circle"></i>
+                                      <i class="fa fa-arrow-down fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    </a>
+                                    <div >
+                                        <select class="custom-select">
+                                            <option value="1">Heading</option>
+                                            <option value="2">Paragraph</option>
+                                            <option value="3" selected="selected">List</option>
+                                            <option value="4">Image</option>
+                                            <option value="5">Link</option>
+                                        </select>
+                                    </div>
+                                    &nbsp;
+                                    <a class="btn btn-danger btn-xs" href="#" role="button"><i class="fa fa-times"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <textarea class="form-control" rows="3" placeholder="Paragraph Text">Put each&#013;item in a&#010;separate row.&#013;</textarea>
+                        </div>
+
+                        <br>
+
+                        <div class="col-sm-12">
+                            <select class="custom-select">
+                                <option value="1" selected="selected">Unodered List</option>
+                                <option value="2">Odered List</option>
+                            </select>
+                        </div>
+
+                        <br>
+
+                        <div class="col-sm-12">
+                            <input class="form-control" class="widget-name" placeholder="Widget Name">
+                        </div>
+
+                        <br>
+
+                        <h3>Preview</h3>
+                            <ul>
+                                <li>
+                                    Put each
+                                </li>
+                                <li>
+                                    item in a
+                                </li>
+                                <li>
+                                    separate row.
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </ul>
+
+
+            <ul class="col-11">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title form-inline ">
+                            <div class="col-3"><h4>Image Widget</h4></div>
+                            <div class="col-9">
+
+                                <div class="form-inline float-sm-right">
+                                    <a href="#">
+                                    <span class="fa fa-stack fa-2x ">
+                                        <i class="fa fa-square fa-stack-1x circle"></i>
+                                        <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    </a>
+                                    <a href="#">
+                                    <span class="fa fa-stack fa-2x">
+                                      <i class="fa fa-square fa-stack-1x circle"></i>
+                                      <i class="fa fa-arrow-down fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    </a>
+                                    <div >
+                                        <select class="custom-select">
+                                            <option value="1">Heading</option>
+                                            <option value="2">Paragraph</option>
+                                            <option value="3">List</option>
+                                            <option value="4" selected="selected">Image</option>
+                                            <option value="5">Link</option>
+                                        </select>
+                                    </div>
+                                    &nbsp;
+                                    <a class="btn btn-danger btn-xs" href="#" role="button"><i class="fa fa-times"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <input class="form-control" class="heading-text" placeholder="http://www.lorempixel.com/300/500">
+                        </div>
+
+
+
+                        <br>
+
+                        <div class="col-sm-12">
+                            <input class="form-control" class="widget-name" placeholder="Widget Name">
+                        </div>
+
+                        <br>
+
+                        <h3>Preview</h3>
+                        <img src="panda.png" class="sample-img"
+                             alt="Panda!" />
+                    </div>
+                </div>
+            </ul>
+
+
+            <ul class="col-11">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-title form-inline ">
+                            <div class="col-3"><h4>Link Widget</h4></div>
+                            <div class="col-9">
+
+                                <div class="form-inline float-sm-right">
+                                    <a href="#">
+                                    <span class="fa fa-stack fa-2x ">
+                                        <i class="fa fa-square fa-stack-1x circle"></i>
+                                        <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    </a>
+                                    <a href="#">
+                                    <span class="fa fa-stack fa-2x">
+                                      <i class="fa fa-square fa-stack-1x circle"></i>
+                                      <i class="fa fa-arrow-down fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                    </a>
+                                    <div >
+                                        <select class="custom-select">
+                                            <option value="1">Heading</option>
+                                            <option value="2">Paragraph</option>
+                                            <option value="3">List</option>
+                                            <option value="4">Image</option>
+                                            <option value="5" selected="selected">Link</option>
+                                        </select>
+                                    </div>
+                                    &nbsp;
+                                    <a class="btn btn-danger btn-xs" href="#" role="button"><i class="fa fa-times"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <input class="form-control" class="heading-text" placeholder="http://www.lorempixel.com/300/500">
+                        </div>
+                        <br>
+                        <div class="col-sm-12">
+                            <input class="form-control" class="heading-text" placeholder="Link text">
+                        </div>
+                        <br>
+                        <div class="col-sm-12">
+                            <input class="form-control" class="heading-text" placeholder="http://www.lorempixel.com/300/500">
+                        </div>
+                        <br>
+
+                        <div class="col-sm-12">
+                            <input class="form-control" class="widget-name" placeholder="Widget Name">
+                        </div>
+
+                        <br>
+
+                        <h3>Preview</h3>
+                        <a href="#">Link text</a>
+                    </div>
+                </div>
+            </ul>
+
+
+
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>

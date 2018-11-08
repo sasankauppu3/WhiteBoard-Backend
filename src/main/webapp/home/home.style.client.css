@@ -1,0 +1,28 @@
+.circle{
+    color:red;
+}
+.nlogo{
+    color: white;
+}
+.timeheadings {
+    color: grey !important;
+    padding: 2% !important;
+}
+
+.navbar-custom{
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+.nav-drop-menu
+{
+
+    background-color: white !important;
+    color:  black !important;
+
+}
+
+.add-rows
+{
+    float: right;
+}
